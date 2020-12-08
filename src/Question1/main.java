@@ -16,6 +16,15 @@ public class main {
                 System.out.println(e.getMessage());
             }
         }
+        Part2 p2 = new Part2();
+        for (String input: inputs){
+            try{
+                p2.add(Integer.parseInt(input));
+            }
+            catch(Answer e){
+                System.out.println(e.getMessage());
+            }
+        }
     }
 
 
